@@ -109,3 +109,10 @@ Windows 鍵盤用戶在 Mac 系統上的快速鍵對照指南，涵蓋：
 - 終端機操作技巧
 - 視窗管理快速鍵
 - 按鍵對應說明
+
+### [Telegram 機器人申請指南](telegram-bot-setup.md)
+詳細的 Telegram 機器人申請步驟，包括：
+- 與 BotFather 互動流程
+- 機器人基本設置
+- Token 安全管理
+- 基本配置命令
