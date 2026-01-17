@@ -1,5 +1,39 @@
 # Mac 開發環境設置詳細步驟
 
+## 🚀 快速開始：一鍵安裝（推薦）
+
+想要快速完成所有設置？我們提供了自動安裝腳本！
+
+### Claude Code 自動安裝包
+
+一行命令安裝所有必備工具：
+```bash
+bash <(curl -fsSL https://raw.githubusercontent.com/你的用戶名/MacSetupTips/main/install-claude-code-tools.sh)
+```
+
+或者下載後執行：
+```bash
+curl -O https://raw.githubusercontent.com/你的用戶名/MacSetupTips/main/install-claude-code-tools.sh
+chmod +x install-claude-code-tools.sh
+./install-claude-code-tools.sh
+```
+
+**這個腳本會自動安裝：**
+- ✅ Xcode Command Line Tools
+- ✅ Homebrew 套件管理器
+- ✅ Claude Code (原生安裝器)
+- ✅ Git、ripgrep、jq 等必備工具
+- ✅ 推薦的增強工具（可選）
+- ✅ Oh-My-Zsh（可選）
+
+📖 **詳細說明**: [Claude Code 一鍵安裝指南](claude-code-installer-guide.md)
+
+---
+
+## 📖 手動安裝步驟
+
+如果您偏好逐步手動安裝，請依照以下步驟：
+
 ## 1. 安裝 Oh-My-Zsh
 ```bash
 # 安裝 Oh-My-Zsh
@@ -95,6 +129,22 @@ jq --version
 ## 📚 進階學習資源
 
 完成基本環境設置後，建議閱讀以下指南來提升你的開發技能：
+
+### [Claude Code 一鍵安裝指南](claude-code-installer-guide.md)
+完整的自動安裝腳本說明文檔，包括：
+- 詳細的安裝內容清單
+- 使用說明和常見問題
+- 手動安裝步驟
+- 故障排除指南
+
+### [Claude Code 工具使用指南](claude.md)
+詳細的終端工具使用範例和最佳實踐，教您如何在 Claude Code 中：
+- 使用 ripgrep、fd、fzf 等工具高效搜尋和導航
+- 用 jq 處理 JSON 資料和配置檔案
+- 用 bat、tree、exa 更好地查看檔案和目錄
+- 用 gh 直接操作 GitHub
+- 組合多個工具實現複雜任務
+- 與 Claude Code 的最佳互動方式
 
 ### [開發訣竅](ClaudeCodeTips.md)
 學習使用 Claude Code 進行高效開發的實用技巧，包括：
