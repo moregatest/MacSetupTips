@@ -137,6 +137,15 @@ jq --version
 - 手動安裝步驟
 - 故障排除指南
 
+### [Claude Code 工具使用指南](claude.md)
+詳細的終端工具使用範例和最佳實踐，教您如何在 Claude Code 中：
+- 使用 ripgrep、fd、fzf 等工具高效搜尋和導航
+- 用 jq 處理 JSON 資料和配置檔案
+- 用 bat、tree、exa 更好地查看檔案和目錄
+- 用 gh 直接操作 GitHub
+- 組合多個工具實現複雜任務
+- 與 Claude Code 的最佳互動方式
+
 ### [開發訣竅](ClaudeCodeTips.md)
 學習使用 Claude Code 進行高效開發的實用技巧，包括：
 - 使用 uv + cli 快速啟動專案

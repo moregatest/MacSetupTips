@@ -272,6 +272,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 ### 本倉庫其他指南
 
+- [Claude Code 工具使用指南](claude.md) - 終端工具詳細使用範例和最佳實踐
 - [開發訣竅](ClaudeCodeTips.md) - Claude Code 使用技巧
 - [鍵盤快速鍵對照表](keyboard-shortcuts-comparison.md) - Mac 快速鍵指南
 - [Telegram 機器人設置](telegram-bot-setup.md) - Telegram Bot 申請教學
